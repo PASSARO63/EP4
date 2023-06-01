@@ -1,0 +1,245 @@
+
+
+/**/
+body{
+   display: grid;
+   grid-template-areas: 
+   "cabe cabe cabe"
+   "lad estru estru"
+   "pe pe pe";
+   grid-gap: 50px;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto auto auto;
+}
+
+
+/*AQUI COMEÇA O HEADER*/
+
+
+/*aqui foi o nome que colocamos no Header, para fazermos a grade do nosso browser*/
+.cabeca{
+    grid-area: cabe;
+}
+
+/*colocamos uma borda com um tamanho de 10px e a cor preta */
+.cabeca{
+    border: 10px solid black;
+}
+
+/*usamos esse codigo para colocar uma imagem de fundo no Header, no caso o cabeçalho*/
+.cabeca{
+    background-image: url(imagens/depositphotos_111566652-stock-photo-red-formula-one-car\ \(1\).jpg);
+}
+
+/*codigo utilizado para alinhar o titulo do nosso site, ajustando tambem o estilo da letra*/
+.hitory{
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*utilizamos a tag color para mudar a cor da palavra e o font-size para mudar a largura da letra */
+.hitory{
+   color: black;
+   font-size: larger;
+}
+
+/*utilizamos para alinhar a logo do nosso browser, mudando tambem o tamanho e a largura*/
+.formula1{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*AQUI COMEÇA O ASIDE*/
+
+
+/*colocamos esse nome no aside, para fazer a grade do nosso browser*/
+.lado{
+    grid-area: lad;
+}
+
+ /*colocamos uma borda com um tamanho de 10px e a cor preta*/
+ .lado{
+    border: 10px solid black;
+}
+
+/*codigo utilizado para alinhar o titulo da grade do main, ajustando tambem o estilo da letra*/
+.titul{
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Utilizamos essa tag para mudar a cor da letra*/
+.titul{
+    color: red;
+}
+
+/*Tag usada para modificar o tamanho e a largura das imagem no aside, posicionando-as no centro*/
+.imgs{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*colocamos uma borda em cada imagem no aside*/
+.imgs{
+    border-radius: 10%;
+}
+
+/*adicionamos um box-shadow em cada imagem, seria no caso uma sombra, na cor preta com 5 pixels de tamanho a borda*/
+.imgs{
+    box-shadow: 5px 5px black;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+/*tag utilizada para alinharmos o h2, dizendo de onde pegamos as imagens*/
+.figuref2{
+    text-align: center;
+}
+
+
+/*AQUI COMEÇA O MAIN*/
+
+
+/*colocamos esse nome no main, para fazer a grade no canto esquerdo do nosso browser*/
+.estrutura{
+    grid-area: estru ;
+    text-align: justify;
+    padding: 20px;
+}
+
+/*adicionamos uma borda na grade main com uma cor*/
+.estrutura{
+    border: 10px solid black;
+}
+
+/*utilizamos para alinhar o titulo da grade main, ajustando tambem a variante da letra*/
+.titulo{
+    text-align: center;
+    font-variant: small-caps;
+}
+
+/*tag utilizada para mudar a cor do titulo da grade main */
+.titulo{
+    color: red;
+}
+
+/*Nesse caso utilizamos uma tag para adicionarmos uma transicao na cor preta com branco, mudando tambem o estilo da letra*/
+.gabri:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+/*Colocamos um font-family para mudar o estilo da letra no nosso main*/
+.gabri{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Alinha o topico h3 do main*/
+.titulof3{
+  text-align: center;
+}
+
+/*Tag usada para modificar o tamanho e a largura das imagem no main, posicionando-as no centro */
+.imagemf1{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*tag utilizada para adicionar uma borda na imagem*/
+.imagemf1{
+    border-radius: 10%;
+}
+
+/*adicionamos um box-shadow em cada imagem, seria no caso uma sombra, na cor preta com 5 pixels de tamanho a borda */
+.imagemf1{
+    box-shadow: 5px 5px black;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+/* utilizamos para adicionar uma borda na imagem*/
+.imagemf4{
+    border-radius: 10%;
+}
+
+/*Tag usada para modificar o tamanho e a largura das imagem no main, posicionando-as no centro*/
+.imagemf4{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*adicionamos um box-shadow em cada imagem, seria no caso uma sombra, na cor preta com 5 pixels de tamanho a borda*/
+.imagemf4{
+    box-shadow: 5px 5px black;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+/*Tag usada para modificar o tamanho e a largura das imagem no main, posicionando-as no centro*/
+.imagemf5{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*utilizamos para adicionar uma borda na imagem*/
+.imagemf5{
+    border-radius: 10%;
+}
+
+/*adicionamos um box-shadow em cada imagem, seria no caso uma sombra, na cor preta com 5 pixels de tamanho a borda*/
+.imagemf5{
+    box-shadow: 5px 5px black;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+/*tag utilizada para alinharmos o h3, dizendo de onde pegamos as imagens*/
+.titulof2{
+    text-align: center;
+}
+
+
+/*AQUI COMEÇA O FOOTER*/
+
+
+/*colocamos esse nome no footer, para fazer uma grade do nosso rodape*/
+.pee{
+    grid-area: pe;
+}
+
+/*usamos esse codigo para colocar uma imagem de fundo no footer, no caso o rodape*/
+.pee{
+    background-image: url(imagens/depositphotos_111566652-stock-photo-red-formula-one-car\ \(1\).jpg);
+}
+
+/*adicionamos uma borda na grade do footer, com uma cor preta*/
+.pee{
+    border: 10px solid black;
+}
+
+/*Tag utilizada para posicionarmos o titulo do nosso footer*/
+.titulus{
+    text-align: center;
+}
+
+/* utilizamos essa tag para colocarmos uma cor no texto do rodape*/
+.titulus{
+    color: black
+}
